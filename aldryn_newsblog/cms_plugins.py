@@ -157,6 +157,19 @@ class NewsBlogLatestArticlesPlugin(AdjustableCacheMixin, NewsBlogPlugin):
         context['article_list'] = instance.get_articles(request)
         return context
 
+@plugin_pool.register_plugin
+class NewsBlogLatestArticlesSimplePlugin(AdjustableCacheMixin, NewsBlogPlugin):
+    render_template = 'aldryn_newsblog/plugins/latest_articles_simple.html'
+    name = _('Latest Articles Simplified')
+    model = models.NewsBlogLatestArticlesSimplePlugin
+    form = forms.NewsBlogLatestArticlesSimplePluginForm
+
+    def render(self, context, instance, placeholder):
+        request = context.get('request')
+        context['instance'] = instance
+        context['article_list'] = instance.get_articles(request)
+        return context
+
 
 @plugin_pool.register_plugin
 class NewsBlogRelatedPlugin(AdjustableCacheMixin, NewsBlogPlugin):
