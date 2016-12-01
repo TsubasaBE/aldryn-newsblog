@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Aldryn News & Blog\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-23 15:51-0400\n"
+"POT-Creation-Date: 2016-12-01 22:56+0100\n"
 "PO-Revision-Date: 2016-08-23 19:51+0000\n"
 "Last-Translator: Paulo Alvarado <paulo.alvarado@divio.ch>\n"
-"Language-Team: Spanish (http://www.transifex.com/divio/aldryn-newsblog/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/divio/aldryn-newsblog/"
+"language/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin.py:23
@@ -61,6 +62,7 @@ msgstr ""
 #: templates/aldryn_newsblog/plugins/authors.html:9
 #: templates/aldryn_newsblog/plugins/featured_articles.html:6
 #: templates/aldryn_newsblog/plugins/latest_articles.html:6
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:11
 #: templates/aldryn_newsblog/plugins/related_articles.html:11
 msgid "No items available"
 msgstr ""
@@ -122,6 +124,7 @@ msgid "All"
 msgstr ""
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:8
 #: templates/aldryn_newsblog/plugins/related_articles.html:8
 msgid "by"
 msgstr ""
@@ -220,8 +223,8 @@ msgstr ""
 msgid ""
 "If you are using the Featured Articles plugin on the article list view, you "
 "may prefer to exclude featured articles from the article list itself to "
-"avoid duplicates. To do this, enter the same number here as in your Featured"
-" Articles plugin."
+"avoid duplicates. To do this, enter the same number here as in your Featured "
+"Articles plugin."
 msgstr ""
 
 #: cms_appconfig.py:90
@@ -280,11 +283,15 @@ msgstr ""
 msgid "Latest Articles"
 msgstr ""
 
-#: cms_plugins.py:163
+#: cms_plugins.py:162
+msgid "Latest Articles Simplified"
+msgstr ""
+
+#: cms_plugins.py:176
 msgid "Related Articles"
 msgstr ""
 
-#: cms_plugins.py:191
+#: cms_plugins.py:205
 msgid "Tags"
 msgstr ""
 
@@ -310,8 +317,8 @@ msgstr ""
 
 #: cms_wizards.py:70
 msgid ""
-"Optional. If provided, it will be added to the main body of the article as a"
-" text plugin, that can be formatted."
+"Optional. If provided, it will be added to the main body of the article as a "
+"text plugin, that can be formatted."
 msgstr ""
 
 #: cms_wizards.py:124
@@ -328,7 +335,6 @@ msgstr ""
 
 #: feeds.py:37
 #, python-format
-#| msgid "Articles on {0}"
 msgid "Articles on %(site_name)s"
 msgstr ""
 
@@ -450,26 +456,26 @@ msgstr ""
 msgid "featured articles: %(count)s"
 msgstr ""
 
-#: models.py:427
+#: models.py:427 models.py:472
 msgid "The maximum number of latest articles to display."
 msgstr ""
 
-#: models.py:433
+#: models.py:433 models.py:478
 msgid ""
 "The maximum number of featured articles to exclude from display. E.g. for "
 "uses in combination with featured articles plugin."
 msgstr ""
 
-#: models.py:461
+#: models.py:461 models.py:506
 #, python-format
 msgid "%(app_title)s latest articles: %(latest_articles)s"
 msgstr ""
 
-#: models.py:489
+#: models.py:534
 msgid "Related articles"
 msgstr ""
 
-#: models.py:531
+#: models.py:576
 #, python-format
 msgid "%s tags"
 msgstr ""
