@@ -57,6 +57,15 @@ class NewsBlogLatestArticlesPluginForm(AutoAppConfigFormMixin,
             'cache_duration'
         ]
 
+class NewsBlogLatestArticlesSimplePluginForm(AutoAppConfigFormMixin,
+                                       forms.ModelForm):
+    class Meta:
+        model = models.NewsBlogLatestArticlesSimplePlugin
+        fields = [
+            'app_config', 'latest_articles', 'exclude_featured',
+            'cache_duration'
+        ]
+
 
 class NewsBlogTagsPluginForm(AutoAppConfigFormMixin, forms.ModelForm):
     class Meta:
