@@ -1,21 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Aldryn News & Blog\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< refs/remotes/upstream/master
 "POT-Creation-Date: 2017-03-02 07:59-0500\n"
 "PO-Revision-Date: 2017-03-02 12:59+0000\n"
+=======
+"POT-Creation-Date: 2016-12-01 22:56+0100\n"
+"PO-Revision-Date: 2016-08-23 19:51+0000\n"
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 "Last-Translator: Paulo Alvarado <paulo.alvarado@divio.ch>\n"
-"Language-Team: Spanish (http://www.transifex.com/divio/aldryn-newsblog/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/divio/aldryn-newsblog/"
+"language/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin.py:25
@@ -70,6 +76,7 @@ msgstr "Siguiente artículo"
 #: templates/aldryn_newsblog/plugins/authors.html:9
 #: templates/aldryn_newsblog/plugins/featured_articles.html:6
 #: templates/aldryn_newsblog/plugins/latest_articles.html:6
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:11
 #: templates/aldryn_newsblog/plugins/related_articles.html:11
 msgid "No items available"
 msgstr "Sin elementos disponibles"
@@ -131,6 +138,7 @@ msgid "All"
 msgstr "Todo"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:8
 #: templates/aldryn_newsblog/plugins/related_articles.html:8
 msgid "by"
 msgstr "Por"
@@ -229,9 +237,15 @@ msgstr "Artículos excluidos"
 msgid ""
 "If you are using the Featured Articles plugin on the article list view, you "
 "may prefer to exclude featured articles from the article list itself to "
+<<<<<<< refs/remotes/upstream/master
 "avoid duplicates. To do this, enter the same number here as in your Featured"
 " Articles plugin."
 msgstr "Si está utilizando el complemento Artículos destacados en la vista de lista de artículos, puede preferir excluir artículos destacados de la lista de artículos para evitar duplicados. Para ello, ingrese el mismo número aquí como en el complemento Artículos destacados."
+=======
+"avoid duplicates. To do this, enter the same number here as in your Featured "
+"Articles plugin."
+msgstr ""
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 
 #: cms_appconfig.py:90
 msgid "Prefix for template dirs"
@@ -299,11 +313,15 @@ msgstr "Artículos destacados"
 msgid "Latest Articles"
 msgstr "Últimos artículos"
 
-#: cms_plugins.py:163
+#: cms_plugins.py:162
+msgid "Latest Articles Simplified"
+msgstr ""
+
+#: cms_plugins.py:176
 msgid "Related Articles"
 msgstr "Artículos relacionados"
 
-#: cms_plugins.py:191
+#: cms_plugins.py:205
 msgid "Tags"
 msgstr "Etiquetas"
 
@@ -333,9 +351,15 @@ msgstr ""
 
 #: cms_wizards.py:72
 msgid ""
+<<<<<<< refs/remotes/upstream/master
 "Optional. If provided, it will be added to the main body of the article as a"
 " text plugin, that can be formatted."
 msgstr "Opcional. Si es ingresado, será agregado a cuerpo del artículo como un atributo texto, que puede ser formateado"
+=======
+"Optional. If provided, it will be added to the main body of the article as a "
+"text plugin, that can be formatted."
+msgstr ""
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 
 #: cms_wizards.py:126
 msgid "Initial version."
@@ -351,7 +375,6 @@ msgstr "Crear nuevo Articulo/Blog"
 
 #: feeds.py:37
 #, python-format
-#| msgid "Articles on {0}"
 msgid "Articles on %(site_name)s"
 msgstr "Artículos en %(site_name)s"
 
@@ -478,26 +501,46 @@ msgstr "Artículo destacado"
 msgid "featured articles: %(count)s"
 msgstr "Artículos destacados:  %(count)s"
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:440
+=======
+#: models.py:427 models.py:472
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 msgid "The maximum number of latest articles to display."
 msgstr "Máximo número de últimos artículos para desplegar"
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:446
+=======
+#: models.py:433 models.py:478
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 msgid ""
 "The maximum number of featured articles to exclude from display. E.g. for "
 "uses in combination with featured articles plugin."
 msgstr "El máximo número de artículos destacados excluidos. Ej para uso en combinación con el plugin artículo destacados. "
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:474
+=======
+#: models.py:461 models.py:506
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 #, python-format
 msgid "%(app_title)s latest articles: %(latest_articles)s"
 msgstr "%(app_title)s últimos articulos: %(latest_articles)s"
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:502
+=======
+#: models.py:534
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 msgid "Related articles"
 msgstr "Artículos relacionados"
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:544
+=======
+#: models.py:576
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 #, python-format
 msgid "%s tags"
 msgstr "%s etiquetas"

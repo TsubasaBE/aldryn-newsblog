@@ -7,7 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Aldryn News & Blog\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< refs/remotes/upstream/master
 "POT-Creation-Date: 2017-03-02 07:59-0500\n"
+=======
+"POT-Creation-Date: 2016-12-01 22:56+0100\n"
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 "PO-Revision-Date: 2016-06-21 08:46+0000\n"
 "Last-Translator: Mikhail Kolesnik <mike@openbunker.org>\n"
 "Language-Team: English (http://www.transifex.com/divio/aldryn-newsblog/"
@@ -71,6 +75,7 @@ msgstr "Next Article"
 #: templates/aldryn_newsblog/plugins/authors.html:9
 #: templates/aldryn_newsblog/plugins/featured_articles.html:6
 #: templates/aldryn_newsblog/plugins/latest_articles.html:6
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:11
 #: templates/aldryn_newsblog/plugins/related_articles.html:11
 msgid "No items available"
 msgstr "No items available"
@@ -132,6 +137,7 @@ msgid "All"
 msgstr "All"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:8
 #: templates/aldryn_newsblog/plugins/related_articles.html:8
 msgid "by"
 msgstr "by"
@@ -307,11 +313,15 @@ msgstr "Featured Articles"
 msgid "Latest Articles"
 msgstr "Latest Articles"
 
-#: cms_plugins.py:163
+#: cms_plugins.py:162
+msgid "Latest Articles Simplified"
+msgstr "Latest Articles Simplified"
+
+#: cms_plugins.py:176
 msgid "Related Articles"
 msgstr "Related Articles"
 
-#: cms_plugins.py:191
+#: cms_plugins.py:205
 msgid "Tags"
 msgstr "Tags"
 
@@ -493,26 +503,46 @@ msgstr "featured article"
 msgid "featured articles: %(count)s"
 msgstr "featured articles: %(count)s"
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:440
 msgid "The maximum number of latest articles to display."
 msgstr "The maximum number of latest articles to display."
 
 #: models.py:446
+=======
+#: models.py:427 models.py:472
+msgid "The maximum number of latest articles to display."
+msgstr "The maximum number of latest articles to display."
+
+#: models.py:433 models.py:478
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 msgid ""
 "The maximum number of featured articles to exclude from display. E.g. for "
 "uses in combination with featured articles plugin."
 msgstr ""
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:474
+=======
+#: models.py:461 models.py:506
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 #, fuzzy, python-format
 msgid "%(app_title)s latest articles: %(latest_articles)s"
 msgstr "%s latest articles: %s"
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:502
 msgid "Related articles"
 msgstr "Related articles"
 
 #: models.py:544
+=======
+#: models.py:534
+msgid "Related articles"
+msgstr "Related articles"
+
+#: models.py:576
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 #, python-format
 msgid "%s tags"
 msgstr "%s tags"

@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Translators:
 # Angelo Dini <finalangeljp@hotmail.com>, 2016-2017
@@ -12,14 +12,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Aldryn News & Blog\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< refs/remotes/upstream/master
 "POT-Creation-Date: 2017-03-02 07:59-0500\n"
 "PO-Revision-Date: 2017-03-02 13:18+0000\n"
 "Last-Translator: Angelo Dini <finalangeljp@hotmail.com>\n"
 "Language-Team: German (http://www.transifex.com/divio/aldryn-newsblog/language/de/)\n"
+=======
+"POT-Creation-Date: 2016-12-01 22:56+0100\n"
+"PO-Revision-Date: 2016-08-23 19:51+0000\n"
+"Last-Translator: Paulo Alvarado <paulo.alvarado@divio.ch>\n"
+"Language-Team: German (http://www.transifex.com/divio/aldryn-newsblog/"
+"language/de/)\n"
+"Language: de\n"
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin.py:25
@@ -74,6 +82,7 @@ msgstr "Nächster Artikel"
 #: templates/aldryn_newsblog/plugins/authors.html:9
 #: templates/aldryn_newsblog/plugins/featured_articles.html:6
 #: templates/aldryn_newsblog/plugins/latest_articles.html:6
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:11
 #: templates/aldryn_newsblog/plugins/related_articles.html:11
 msgid "No items available"
 msgstr "Keine Artikel vorhanden"
@@ -135,6 +144,7 @@ msgid "All"
 msgstr "Alle"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:8
 #: templates/aldryn_newsblog/plugins/related_articles.html:8
 msgid "by"
 msgstr "von"
@@ -187,7 +197,9 @@ msgstr "Permalink Typ"
 msgid ""
 "Choose the style of urls to use from the examples. (Note, all types are "
 "relative to apphook)"
-msgstr "Stil der URLs aus den Beispielen auswählen. (Notiz, alle Typen sind relativ zur Applikations Seite)"
+msgstr ""
+"Stil der URLs aus den Beispielen auswählen. (Notiz, alle Typen sind relativ "
+"zur Applikations Seite)"
 
 #: cms_appconfig.py:51
 msgid "non-permalink handling"
@@ -223,7 +235,9 @@ msgstr "Sichtbare Seitennummern"
 msgid ""
 "When grouping page numbers, this determines how many pages are visible on "
 "each side of the active page."
-msgstr "Bestimme wie viele Seiten bei der groupierung der Seitennummern sichtbar sind auf beiden Richtungen der aktiven Seite."
+msgstr ""
+"Bestimme wie viele Seiten bei der groupierung der Seitennummern sichtbar "
+"sind auf beiden Richtungen der aktiven Seite."
 
 #: cms_appconfig.py:77
 msgid "Excluded featured articles count"
@@ -233,9 +247,14 @@ msgstr "Ausgeschlossene Featured Artikel"
 msgid ""
 "If you are using the Featured Articles plugin on the article list view, you "
 "may prefer to exclude featured articles from the article list itself to "
-"avoid duplicates. To do this, enter the same number here as in your Featured"
-" Articles plugin."
-msgstr "Wenn das \"Featured Articles\" Plugin verwendet wird auf der \"article-list-view\", wird bevorzugt, dass \"Featured Articles\" ausgeschlossen wird von der Artikel-Liste selber, umso Dublikate zu vermeiden. Um dies umzusetzen, gebe die gleiche Anzahl von Nummern hier ein, wie im \"Featured Articles\" Plugin definiert wurden."
+"avoid duplicates. To do this, enter the same number here as in your Featured "
+"Articles plugin."
+msgstr ""
+"Wenn das \"Featured Articles\" Plugin verwendet wird auf der \"article-list-"
+"view\", wird bevorzugt, dass \"Featured Articles\" ausgeschlossen wird von "
+"der Artikel-Liste selber, umso Dublikate zu vermeiden. Um dies umzusetzen, "
+"gebe die gleiche Anzahl von Nummern hier ein, wie im \"Featured Articles\" "
+"Plugin definiert wurden."
 
 #: cms_appconfig.py:90
 msgid "Prefix for template dirs"
@@ -303,11 +322,17 @@ msgstr "Featured Artikel"
 msgid "Latest Articles"
 msgstr "Neuste Artikel"
 
-#: cms_plugins.py:163
+#: cms_plugins.py:162
+#, fuzzy
+#| msgid "Latest Articles"
+msgid "Latest Articles Simplified"
+msgstr "Neuste Artikel"
+
+#: cms_plugins.py:176
 msgid "Related Articles"
 msgstr "Ähnliche Artikel"
 
-#: cms_plugins.py:191
+#: cms_plugins.py:205
 msgid "Tags"
 msgstr "Tags"
 
@@ -337,9 +362,11 @@ msgstr "Inhalt"
 
 #: cms_wizards.py:72
 msgid ""
-"Optional. If provided, it will be added to the main body of the article as a"
-" text plugin, that can be formatted."
-msgstr "Optional. Wenn verfügbar, wird es zum \"Main-Body\" vom Artikel als ein Text Plugin, das formatiert werden kann, hinzugefügt."
+"Optional. If provided, it will be added to the main body of the article as a "
+"text plugin, that can be formatted."
+msgstr ""
+"Optional. Wenn verfügbar, wird es zum \"Main-Body\" vom Artikel als ein Text "
+"Plugin, das formatiert werden kann, hinzugefügt."
 
 #: cms_wizards.py:126
 msgid "Initial version."
@@ -355,7 +382,6 @@ msgstr "Neuen News/Blog Artikel erstellen"
 
 #: feeds.py:37
 #, python-format
-#| msgid "Articles on {0}"
 msgid "Articles on %(site_name)s"
 msgstr "Artikel auf %(site_name)s"
 
@@ -379,7 +405,9 @@ msgstr "Slug"
 msgid ""
 "Used in the URL. If changed, the URL will change. Clear it to have it re-"
 "created automatically."
-msgstr "Wird in der URL verwendet. Wenn dies geändert wird, ändert sich auch die URL. Lösch es um es automatisch neu-generieren zu können."
+msgstr ""
+"Wird in der URL verwendet. Wenn dies geändert wird, ändert sich auch die "
+"URL. Lösch es um es automatisch neu-generieren zu können."
 
 #: models.py:99
 msgid "lead"
@@ -389,7 +417,9 @@ msgstr "Lead"
 msgid ""
 "The lead gives the reader the main idea of the story, this is useful in "
 "overviews, lists or as an introduction to your article."
-msgstr "Der Lead sollte dem Leser die eigentliche Idee des Text geben. Dies ist hilfreich für Überschriften, Listen oder als Einleitung eines Artikels."
+msgstr ""
+"Der Lead sollte dem Leser die eigentliche Idee des Text geben. Dies ist "
+"hilfreich für Überschriften, Listen oder als Einleitung eines Artikels."
 
 #: models.py:108
 msgid "meta title"
@@ -482,26 +512,48 @@ msgstr "Featured Artikel"
 msgid "featured articles: %(count)s"
 msgstr "Featured Artikel: %(count)s"
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:440
 msgid "The maximum number of latest articles to display."
 msgstr "Maximale Anzal der neusten Artikel."
 
 #: models.py:446
+=======
+#: models.py:427 models.py:472
+msgid "The maximum number of latest articles to display."
+msgstr "Maximale Anzal der neusten Artikel."
+
+#: models.py:433 models.py:478
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 msgid ""
 "The maximum number of featured articles to exclude from display. E.g. for "
 "uses in combination with featured articles plugin."
-msgstr "Maximale Anzahl von \"featured\" Artikel, die ausgeschlossen sind. z.B. für Benutzer in Kombination mit \"featured\" Artikel Plugins."
+msgstr ""
+"Maximale Anzahl von \"featured\" Artikel, die ausgeschlossen sind. z.B. für "
+"Benutzer in Kombination mit \"featured\" Artikel Plugins."
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:474
+=======
+#: models.py:461 models.py:506
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 #, python-format
 msgid "%(app_title)s latest articles: %(latest_articles)s"
 msgstr "%(app_title)s letzte Artikel: %(latest_articles)s"
 
+<<<<<<< refs/remotes/upstream/master
 #: models.py:502
 msgid "Related articles"
 msgstr "Ähnliche Artikel"
 
 #: models.py:544
+=======
+#: models.py:534
+msgid "Related articles"
+msgstr "Ähnliche Artikel"
+
+#: models.py:576
+>>>>>>> Added LatestArticlesSimplePlugin en and nl translations
 #, python-format
 msgid "%s tags"
 msgstr "%s Tags"
