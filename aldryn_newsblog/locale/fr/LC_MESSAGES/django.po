@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Translators:
 # Frigory33 <chironsylvain@orange.fr>, 2016
@@ -10,14 +10,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Aldryn News & Blog\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-23 15:51-0400\n"
+"POT-Creation-Date: 2016-12-01 22:56+0100\n"
 "PO-Revision-Date: 2016-08-23 19:51+0000\n"
 "Last-Translator: Paulo Alvarado <paulo.alvarado@divio.ch>\n"
-"Language-Team: French (http://www.transifex.com/divio/aldryn-newsblog/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/divio/aldryn-newsblog/"
+"language/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: admin.py:23
@@ -63,6 +64,7 @@ msgstr "Article suivant"
 #: templates/aldryn_newsblog/plugins/authors.html:9
 #: templates/aldryn_newsblog/plugins/featured_articles.html:6
 #: templates/aldryn_newsblog/plugins/latest_articles.html:6
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:11
 #: templates/aldryn_newsblog/plugins/related_articles.html:11
 msgid "No items available"
 msgstr "Aucun élément disponible"
@@ -124,6 +126,7 @@ msgid "All"
 msgstr "Tout"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:8
 #: templates/aldryn_newsblog/plugins/related_articles.html:8
 msgid "by"
 msgstr "par"
@@ -176,7 +179,9 @@ msgstr "type de permalien"
 msgid ""
 "Choose the style of urls to use from the examples. (Note, all types are "
 "relative to apphook)"
-msgstr "Choisissez le style d'URL à utiliser parmi les exemples (notez que tous les types sont relatives à l'accroche d'applications)."
+msgstr ""
+"Choisissez le style d'URL à utiliser parmi les exemples (notez que tous les "
+"types sont relatives à l'accroche d'applications)."
 
 #: cms_appconfig.py:51
 msgid "non-permalink handling"
@@ -202,7 +207,9 @@ msgstr "Début des pages paginées"
 msgid ""
 "When paginating list views, after how many pages should we start grouping "
 "the page numbers."
-msgstr "Lorsque la pagination liste des vues, après combien de pages devrait-on commencer à grouper les numéros de page ?"
+msgstr ""
+"Lorsque la pagination liste des vues, après combien de pages devrait-on "
+"commencer à grouper les numéros de page ?"
 
 #: cms_appconfig.py:70
 msgid "Pagination pages visible"
@@ -212,7 +219,9 @@ msgstr "Pages de pagination visibles"
 msgid ""
 "When grouping page numbers, this determines how many pages are visible on "
 "each side of the active page."
-msgstr "Lorsque les numéros de page sont groupés, cela définit combien de pages sont visibles sur chaque côté de la page active."
+msgstr ""
+"Lorsque les numéros de page sont groupés, cela définit combien de pages sont "
+"visibles sur chaque côté de la page active."
 
 #: cms_appconfig.py:77
 msgid "Excluded featured articles count"
@@ -222,9 +231,13 @@ msgstr "Nombre d'articles mis en avant exclus"
 msgid ""
 "If you are using the Featured Articles plugin on the article list view, you "
 "may prefer to exclude featured articles from the article list itself to "
-"avoid duplicates. To do this, enter the same number here as in your Featured"
-" Articles plugin."
-msgstr "Si vous utilisez le greffon des Articles mis en avant dans l'affichage de la liste des articles, vous pouvez décider d'exclure les articles mis en avant de la liste d'articles pour éviter les doublons. Pour ce faire, saisissez le même nombre ici que dans votre greffon Articles mis en avant."
+"avoid duplicates. To do this, enter the same number here as in your Featured "
+"Articles plugin."
+msgstr ""
+"Si vous utilisez le greffon des Articles mis en avant dans l'affichage de la "
+"liste des articles, vous pouvez décider d'exclure les articles mis en avant "
+"de la liste d'articles pour éviter les doublons. Pour ce faire, saisissez le "
+"même nombre ici que dans votre greffon Articles mis en avant."
 
 #: cms_appconfig.py:90
 msgid "Prefix for template dirs"
@@ -236,7 +249,8 @@ msgstr "Auto-générer les crédits ?"
 
 #: cms_appconfig.py:96
 msgid "Automatically create authors from logged-in user?"
-msgstr "Générer automatiquement les crédits à partir des utilisateurs connectés ?"
+msgstr ""
+"Générer automatiquement les crédits à partir des utilisateurs connectés ?"
 
 #: cms_appconfig.py:101
 msgid "Include in search index?"
@@ -282,11 +296,17 @@ msgstr "Articles en lumière"
 msgid "Latest Articles"
 msgstr "Articles récents"
 
-#: cms_plugins.py:163
+#: cms_plugins.py:162
+#, fuzzy
+#| msgid "Latest Articles"
+msgid "Latest Articles Simplified"
+msgstr "Articles récents"
+
+#: cms_plugins.py:176
 msgid "Related Articles"
 msgstr "Articles liés"
 
-#: cms_plugins.py:191
+#: cms_plugins.py:205
 msgid "Tags"
 msgstr "Balises"
 
@@ -312,9 +332,11 @@ msgstr "Supprimer cet article"
 
 #: cms_wizards.py:70
 msgid ""
-"Optional. If provided, it will be added to the main body of the article as a"
-" text plugin, that can be formatted."
-msgstr "Facultatif. Si indiqué, il sera ajouté au corps principal de l'article sous la forme d'un objet texte qui peut être formaté."
+"Optional. If provided, it will be added to the main body of the article as a "
+"text plugin, that can be formatted."
+msgstr ""
+"Facultatif. Si indiqué, il sera ajouté au corps principal de l'article sous "
+"la forme d'un objet texte qui peut être formaté."
 
 #: cms_wizards.py:124
 msgid "Initial version."
@@ -330,7 +352,6 @@ msgstr "Créer un nouvel article de nouvelles/blog."
 
 #: feeds.py:37
 #, python-format
-#| msgid "Articles on {0}"
 msgid "Articles on %(site_name)s"
 msgstr ""
 
@@ -354,7 +375,9 @@ msgstr "slug"
 msgid ""
 "Used in the URL. If changed, the URL will change. Clear it to have it re-"
 "created automatically."
-msgstr "Utilisé dans l'URL. Si modifié, l'URL sera modifiée. Effacez pour une valeur automatique."
+msgstr ""
+"Utilisé dans l'URL. Si modifié, l'URL sera modifiée. Effacez pour une valeur "
+"automatique."
 
 #: models.py:99
 msgid "lead"
@@ -364,7 +387,10 @@ msgstr "résumé"
 msgid ""
 "The lead gives the reader the main idea of the story, this is useful in "
 "overviews, lists or as an introduction to your article."
-msgstr "Le résumé donne au lecteur l'idée principale de l'histoire ; cela sert dans les vues d'ensemble, les listes ou en tant qu'introduction pour votre article."
+msgstr ""
+"Le résumé donne au lecteur l'idée principale de l'histoire ; cela sert dans "
+"les vues d'ensemble, les listes ou en tant qu'introduction pour votre "
+"article."
 
 #: models.py:108
 msgid "meta title"
@@ -414,7 +440,9 @@ msgstr "articles liés"
 msgid ""
 "The maximum duration (in seconds) that this plugin's content should be "
 "cached."
-msgstr "La durée maximale (en seconde) durant laquelle les données de ce greffon devraient être mises en cache."
+msgstr ""
+"La durée maximale (en seconde) durant laquelle les données de ce greffon "
+"devraient être mises en cache."
 
 #: models.py:288 models.py:299
 #, python-format
@@ -452,26 +480,28 @@ msgstr "article en lumière"
 msgid "featured articles: %(count)s"
 msgstr "articles en lumière : %(count)s"
 
-#: models.py:427
+#: models.py:427 models.py:472
 msgid "The maximum number of latest articles to display."
 msgstr "Le nombre maximum d'articles récents à afficher."
 
-#: models.py:433
+#: models.py:433 models.py:478
 msgid ""
 "The maximum number of featured articles to exclude from display. E.g. for "
 "uses in combination with featured articles plugin."
-msgstr "Le nombre maximum d'articles mis en avant à exclure de l'affichage. À utiliser par ex. avec un greffon d'articles mis en avant."
+msgstr ""
+"Le nombre maximum d'articles mis en avant à exclure de l'affichage. À "
+"utiliser par ex. avec un greffon d'articles mis en avant."
 
-#: models.py:461
+#: models.py:461 models.py:506
 #, python-format
 msgid "%(app_title)s latest articles: %(latest_articles)s"
 msgstr "Derniers articles dans %(app_title)s : %(latest_articles)s"
 
-#: models.py:489
+#: models.py:534
 msgid "Related articles"
 msgstr "Articles liés"
 
-#: models.py:531
+#: models.py:576
 #, python-format
 msgid "%s tags"
 msgstr "balises %s"
