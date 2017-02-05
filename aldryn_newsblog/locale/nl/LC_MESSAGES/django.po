@@ -78,7 +78,7 @@ msgstr "Volgend artikel"
 #: templates/aldryn_newsblog/plugins/authors.html:9
 #: templates/aldryn_newsblog/plugins/featured_articles.html:6
 #: templates/aldryn_newsblog/plugins/latest_articles.html:6
-#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:11
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:10
 #: templates/aldryn_newsblog/plugins/related_articles.html:11
 msgid "No items available"
 msgstr "Geen items beschikbaar"
@@ -140,7 +140,7 @@ msgid "All"
 msgstr "Alle"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
-#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:8
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:7
 #: templates/aldryn_newsblog/plugins/related_articles.html:8
 msgid "by"
 msgstr "door"
@@ -329,7 +329,7 @@ msgstr "Laatste artikelen vereenvoudigd"
 msgid "Related Articles"
 msgstr "Gerelateerde Artikelen"
 
-#: cms_plugins.py:205
+#: cms_plugins.py:204
 msgid "Tags"
 msgstr "Tags"
 
