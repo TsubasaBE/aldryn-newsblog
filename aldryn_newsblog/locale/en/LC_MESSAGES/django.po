@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Aldryn News & Blog\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-01 22:56+0100\n"
+"POT-Creation-Date: 2017-02-04 17:35+0100\n"
 "PO-Revision-Date: 2016-06-21 08:46+0000\n"
 "Last-Translator: Mikhail Kolesnik <mike@openbunker.org>\n"
 "Language-Team: English (http://www.transifex.com/divio/aldryn-newsblog/"
@@ -18,19 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin.py:23
+#: admin.py:25
 msgid "Mark selected articles as published"
 msgstr "Mark selected articles as published"
 
-#: admin.py:29
+#: admin.py:33
 msgid "Mark selected articles as not published"
 msgstr "Mark selected articles as not published"
 
-#: admin.py:35
+#: admin.py:41
 msgid "Mark selected articles as featured"
 msgstr "Mark selected articles as featured"
 
-#: admin.py:41
+#: admin.py:49
 msgid "Mark selected articles as not featured"
 msgstr "Mark selected articles as not featured"
 
@@ -61,7 +61,7 @@ msgstr "Next Article"
 #: templates/aldryn_newsblog/plugins/authors.html:9
 #: templates/aldryn_newsblog/plugins/featured_articles.html:6
 #: templates/aldryn_newsblog/plugins/latest_articles.html:6
-#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:11
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:10
 #: templates/aldryn_newsblog/plugins/related_articles.html:11
 msgid "No items available"
 msgstr "No items available"
@@ -123,7 +123,7 @@ msgid "All"
 msgstr "All"
 
 #: boilerplates/bootstrap3/templates/aldryn_newsblog/plugins/related_articles.html:9
-#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:8
+#: templates/aldryn_newsblog/plugins/latest_articles_simple.html:7
 #: templates/aldryn_newsblog/plugins/related_articles.html:8
 msgid "by"
 msgstr "by"
@@ -295,7 +295,7 @@ msgstr "Latest Articles Simplified"
 msgid "Related Articles"
 msgstr "Related Articles"
 
-#: cms_plugins.py:205
+#: cms_plugins.py:204
 msgid "Tags"
 msgstr "Tags"
 
@@ -401,7 +401,7 @@ msgstr "author"
 msgid "owner"
 msgstr "owner"
 
-#: models.py:125 models.py:273
+#: models.py:125 models.py:282
 msgid "Apphook configuration"
 msgstr ""
 
@@ -421,72 +421,72 @@ msgstr "is published"
 msgid "is featured"
 msgstr "is featured"
 
-#: models.py:139
+#: models.py:148
 msgid "related articles"
 msgstr "related articles"
 
-#: models.py:258
+#: models.py:267
 msgid ""
 "The maximum duration (in seconds) that this plugin's content should be "
 "cached."
 msgstr ""
 
-#: models.py:288 models.py:299
+#: models.py:297 models.py:308
 #, python-format
 msgid "%s archive"
 msgstr "%s archive"
 
-#: models.py:293
+#: models.py:302
 msgid "max articles"
 msgstr "max articles"
 
-#: models.py:295
+#: models.py:304
 msgid "The maximum number of found articles display."
 msgstr "The maximum number of found articles display."
 
-#: models.py:340
+#: models.py:349
 #, python-format
 msgid "%s authors"
 msgstr "%s authors"
 
-#: models.py:346
+#: models.py:355
 #, python-format
 msgid "%s categories"
 msgstr "%s categories"
 
-#: models.py:390
+#: models.py:399
 msgid "The maximum number of featured articles display."
 msgstr "The maximum number of featured articles display."
 
-#: models.py:413
+#: models.py:422
 msgid "featured article"
 msgstr "featured article"
 
-#: models.py:415
+#: models.py:424
 #, python-format
 msgid "featured articles: %(count)s"
 msgstr "featured articles: %(count)s"
 
-#: models.py:427 models.py:472
+#: models.py:436 models.py:481
 msgid "The maximum number of latest articles to display."
 msgstr "The maximum number of latest articles to display."
 
-#: models.py:433 models.py:478
+#: models.py:442 models.py:487
 msgid ""
 "The maximum number of featured articles to exclude from display. E.g. for "
 "uses in combination with featured articles plugin."
 msgstr ""
 
-#: models.py:461 models.py:506
+#: models.py:470 models.py:515
 #, fuzzy, python-format
 msgid "%(app_title)s latest articles: %(latest_articles)s"
 msgstr "%s latest articles: %s"
 
-#: models.py:534
+#: models.py:543
 msgid "Related articles"
 msgstr "Related articles"
 
-#: models.py:576
+#: models.py:585
 #, python-format
 msgid "%s tags"
 msgstr "%s tags"
